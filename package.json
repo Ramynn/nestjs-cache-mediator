@@ -1,0 +1,35 @@
+{
+  "name": "nestjs-cache-mediator",
+  "version": "1.0.0",
+  "description": "A fully abstract, type-safe cache-first mediator for NestJS using BullMQ and Redis for distributed caching and job scheduling. Optimized for performance and concurrency.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "nestjs",
+    "bullmq",
+    "redis",
+    "cache-first",
+    "mediator",
+    "cache",
+    "job-scheduling",
+    "distributed",
+    "typescript"
+  ],
+  "author": "Ramin Mohammadi",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^11.0.9",
+    "@nestjs/bull": "^11.0.2",
+    "bull": "^4.16.5",
+    "ioredis": "^5.5.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.2",
+    "@nestjs/schematics": "^11.0.0",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
